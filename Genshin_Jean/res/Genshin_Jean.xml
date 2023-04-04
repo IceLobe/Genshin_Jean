@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window bktrans="true" size="300,120" caption="0,0,0,30" defaultfontcolor="0xFFFFFFFF">
+	<Font id="13" name="宋体" size="13" bold="false"/>
+	<Font id="12" name="宋体" size="12"/>
+	<VerticalLayout bkcolor="0xFF000000" hole="false">
+		<HorizontalLayout height="30">
+			<Label text="原琴工具" padding="5" font="12" />
+			<Button name="closebtn" width="30" text="X" tooltip="关闭" font="12" />
+		</HorizontalLayout>
+		<HorizontalLayout padding="0,5" height="30">
+			<Label text="Midi文件:" width="80" padding="10" font="12" />
+			<Combo name="cmbMidFile" padding="5" bordersize="1" borderround="3,3" bordercolor="0xffffffff" font="12" itemfont="12" itemtextpadding="5" itemtextcolor="0xFFFFFFFF" itemselectedtextcolor="0xFFFFFFFF" itembkcolor="0xFF000000" />
+		</HorizontalLayout>
+		<HorizontalLayout padding="0,10" height="26">
+			<Control />
+			<Button name="btnPlay" text="弹奏" width="60" bordersize="1" borderround="3,3" bordercolor="0xffffffff" font="12" />
+			<Control />
+			<Button name="btnStop" text="停止" width="60" bordersize="1" borderround="3,3" bordercolor="0xffffffff" font="12" />
+			<Control />
+			<Button name="btnPrevious" text="上一首" width="60" bordersize="1" borderround="3,3" bordercolor="0xffffffff" font="12" />
+			<Control />
+			<Button name="btnNext" text="下一首" width="60" bordersize="1" borderround="3,3" bordercolor="0xffffffff" font="12" />
+			<Control />
+		</HorizontalLayout>
+		<Control />
+	</VerticalLayout>
+</Window>
